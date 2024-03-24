@@ -4,7 +4,7 @@ import {useState} from 'react';
 
 function App() {
   let[Data,setData] = useState(null)
-  let[print , setPrint] = useState(null)
+  let[print , setPrint] = useState(false)
   
   function Update(ev){
     console.warn(ev.target.value);
